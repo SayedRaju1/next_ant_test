@@ -22,7 +22,8 @@
 //   },
 // });
 
-
+const fs = require('fs');
+const path = require('path');
 const withLess = require('next-with-less');
 const lessToJS = require('less-vars-to-js');
 
