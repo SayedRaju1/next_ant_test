@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <Button>Button</Button>
+      <Button type="primary">Button</Button>
       <DatePicker />
     </div>
   )
