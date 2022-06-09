@@ -38,12 +38,11 @@ module.exports = withLess({
   lessLoaderOptions: {
     lessOptions: {
       javascriptEnabled: true,
-      // modifyVars: themeVariables,
-      modifyVars: {
-        "primary-color": "#9FF",
-        "border-radius-base": "2px",
-        /* ... */
-      },
+      modifyVars: themeVariables,
+      // modifyVars: {
+      //   "primary-color": "#9FF",
+      //   "border-radius-base": "2px",
+      // },
       localIdentName: '[path]___[local]___[hash:base64:5]',
     },
   },
